@@ -1,0 +1,28 @@
+{
+  "name": "@pagerland/common",
+  "version": "1.0.0",
+  "author": "@kudzaim.codes",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@styled-system/prop-types": "5.1.5",
+    "classnames": "2.2.6",
+    "formik": "2.1.4",
+    "lodash": "4.17.15",
+    "normalize.css": "8.0.1",
+    "prop-types": "15.7.2",
+    "react": "16.13.1",
+    "react-animated-burgers": "1.2.7",
+    "react-collapse": "5.0.1",
+    "react-dom": "16.13.1",
+    "react-reveal": "1.2.2",
+    "react-scroll": "1.7.16",
+    "react-slick": "0.26.1",
+    "react-string-replace": "0.4.4",
+    "react-use": "15.2.4",
+    "styled-components": "5.1.1",
+    "styled-media-query": "2.1.2",
+    "styled-system": "5.1.5",
+    "yup": "0.29.1"
+  }
+}
