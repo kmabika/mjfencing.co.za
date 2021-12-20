@@ -1,5 +1,5 @@
 import { css } from 'styled-components';
-import { variant } from '@utils';
+import { variant } from "@utils";
 
 import { colors, transition } from '../../styles';
 import Typography from '../Typography';
@@ -28,12 +28,12 @@ const Button = {
       background-color: ${colors.brand};
 
       &:hover {
-        background-color: ${colors.shades.brand[3]};
+        background-color: ${colors.shades.hover[0]};
       }
 
       &:active,
       &:focus {
-        background-color: ${colors.shades.brand[4]};
+        background-color: ${colors.shades.hover[1]};
       }
     `,
     default: css`
@@ -54,12 +54,12 @@ const Button = {
       background-color: transparent;
 
       &:hover {
-        color: ${colors.shades.brand[3]};
+        color: ${colors.shades.hover[0]};
       }
 
       &:active,
       &:focus {
-        color: ${colors.shades.brand[4]};
+        color: ${colors.shades.hover[1]};
       }
     `,
   },
